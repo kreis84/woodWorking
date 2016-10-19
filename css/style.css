@@ -1,0 +1,43 @@
+body
+{
+	font-family: 'Oswald', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+header
+{
+	background-color: #241b18;
+}
+
+header section
+{
+	width: 940px;
+	margin: auto;
+}
+
+header img
+{
+	position: relative;
+	top: 45px;
+	margin-bottom: 70px;
+}
+
+nav
+{
+	float:right;
+	position: relative;
+	top: 70px;
+}
+
+nav a
+{
+	color: white;
+	text-decoration: none;
+	margin-left: 50px;
+}
+
+nav a:hover
+{
+	color: #ffc947;
+}
