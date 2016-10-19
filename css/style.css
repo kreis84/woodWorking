@@ -41,3 +41,49 @@ nav a:hover
 {
 	color: #ffc947;
 }
+
+main
+{
+	width: 940px;
+	background-color: #888;
+	margin: auto;
+}
+
+.bigImg
+{
+	width: 50%;
+	float: left;
+}
+
+.rightBox
+{
+	float: left;
+	width: 50%;
+	background: url(../img/rightBoxBackground.png);
+	padding: 30px;
+	box-sizing: border-box;
+	height: 407.133px;
+}
+
+.rightBox h3
+{
+	font-size: 2.2em;
+}
+
+.middleBox
+{
+	margin-top: 1px;
+	width: 33.333333%;
+ 	float: left;
+}
+
+.middleBox img
+{
+	width: 100%;
+}
+
+.strip
+{
+	position: relative;
+	top: -20px;
+}
