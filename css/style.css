@@ -87,3 +87,27 @@ main
 	position: relative;
 	top: -20px;
 }
+
+.middleBox
+{
+	background-color: #4b3a33;
+	color: white;
+}
+
+.middleBox:nth-child(2n)
+{
+	background-color: #241b18;
+}
+
+.middleBox h4
+{
+	color:  #ffc947;
+
+}
+
+.middleBox p, .middleBox h4
+{
+	padding: 0 20px;
+	position:  relative;
+	top: -30px;
+}
