@@ -3,6 +3,12 @@ body
 	font-family: 'Oswald', sans-serif;
 	margin: 0;
 	padding: 0;
+	background-color: #201816;
+}
+
+html, body
+{
+	height: 100%;
 }
 
 header
@@ -107,5 +113,62 @@ main
 .middleBox p, .middleBox h4
 {
 	padding: 0 20px;
+	margin: 10px auto;
+}
 
+aside.left
+{
+	background: url(../img/woodworkingwebsitetemplate_04.jpg);
+	background-repeat: repeat-y;
+	height: 100%;
+	width: 250px;
+	float: left;
+	margin-top: 1px;
+}
+
+aside.right
+{
+	background: url(../img/woodworkingwebsitetemplate_06.jpg);
+	background-repeat: repeat-y;
+	height: 100%;
+	width: 250px;
+	float: right;
+	margin-top: 1px;
+}
+
+.mainContainer
+{
+	width: 1440px;
+	height: 100%;
+	margin: auto;
+}
+
+.bottomStrip
+{
+	background-color: #ffffff;
+
+}
+
+.bottomBox
+{
+	float: left;
+	width: 33.333333%;
+	background-color: #ffffff;
+}
+
+
+
+.bottomBox h3
+{
+	color: #241b18;
+	margin-top: 0px;
+	margin: 0 20px;
+	font-size: 1.4375em;
+}
+
+.bottomBox p
+{
+	color: #7b7b7b;
+	margin-bottom: 0px;
+	padding-left: 20px;
 }
