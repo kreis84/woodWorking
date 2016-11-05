@@ -8,7 +8,7 @@ body
 
 html, body
 {
-	height: 100%;
+/*	height: 100%; */
 }
 
 header
@@ -46,13 +46,6 @@ nav a
 nav a:hover
 {
 	color: #ffc947;
-}
-
-main
-{
-	width: 940px;
-	background-color: #888;
-	margin: auto;
 }
 
 .bigImg
@@ -122,8 +115,9 @@ aside.left
 	background-repeat: repeat-y;
 	height: 100%;
 	width: 250px;
-	float: left;
-	margin-top: 1px;
+	position: absolute;
+	left: 0;
+    top: 0;
 }
 
 aside.right
@@ -132,15 +126,26 @@ aside.right
 	background-repeat: repeat-y;
 	height: 100%;
 	width: 250px;
-	float: right;
-	margin-top: 1px;
+	position: absolute;
+    right: 0;
+    top: 0;
+
 }
+
+main
+{
+	width: 940px;
+	background-color: #888;
+	margin: 0 auto;
+}
+
 
 .mainContainer
 {
 	width: 1440px;
 	height: 100%;
-	margin: auto;
+	margin: 0 auto;
+	position: relative;
 }
 
 .bottomStrip
@@ -204,4 +209,16 @@ aside.right
 .innerBox img
 {
 	float: right;
+}
+
+footer
+{
+	width: 100%;
+	background-color: #e2b241;
+}
+
+footer section
+{
+	width: 940px;
+	height: 100px;
 }
