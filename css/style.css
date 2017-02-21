@@ -347,6 +347,12 @@ footer section div
 	border-radius: 20px;
 	height: 26px;
 	width: 82px;
+	cursor: pointer;
+}
+
+.footerRight button:hover
+{
+	background-color: #4b3a33;
 }
 
 .footerRight .strip
@@ -363,7 +369,56 @@ footer section div
 	margin: 17px 0 0 20px;
 }
 
+.footerRight img:hover
+{
+	filter:brightness(130%);
+}
+
 .footerRight h4.social
 {
-	margin: 47px 0 0 20px;
+	margin: 47px 0 20px 20px;
+}
+
+.socialWrapper
+{
+	width: 100%;
+}
+
+.socialWrapper a
+{
+	width: 33px;
+	height: 32px;
+	display: block;
+	float: left;
+	margin-left: 20px;
+}
+
+.socialWrapper a:first-child
+{
+	width: 37px;
+}
+
+.twitter
+{
+	background: url(../img/social.png);
+}
+.facebook
+{
+	background: url(../img/social.png) 35px 0;
+}
+.google
+{
+	background: url(../img/social.png) 70px 0;
+}
+.twitter:hover
+{
+	background: url(../img/social.png) 0px 33px;
+}
+.facebook:hover
+{
+	background: url(../img/social.png) 35px 33px;
+}
+.google:hover
+{
+	background: url(../img/social.png) 70px 33px;
 }
